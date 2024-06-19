@@ -1,0 +1,60 @@
+nav{
+    background-color: rgb(162, 182, 133);
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    text-decoration: none;
+  
+}
+
+nav ul li{
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+nav ul li :not(.active){
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+nav ul li .active{
+    font-weight: bolder;
+    font-size: larger;
+    color: green;
+    text-decoration: underline;
+    
+
+}
+
+nav ul li .active:hover{
+    font-size: x-large;
+    color: rgb(5, 73, 5);
+    text-decoration: underline;
+}
+
+nav ul li :not(.active):hover{
+    font-size: x-large;
+    color: rgb(5, 73, 5);
+    text-decoration: underline;
+}
+
+
+
+/* Media queries for responsive layout */
+@media (max-width: 767px) {
+    nav ul {
+      flex-direction: column; /* Change to column layout for smaller screens */
+      align-items: center; /* Center align navigation items */
+    }
+  
+    nav ul li {
+      margin: 10px 0; /* Add some vertical spacing between navigation items */
+    }
+  }
+  
