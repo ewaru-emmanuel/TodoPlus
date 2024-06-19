@@ -38,3 +38,16 @@ To contribute to Todo App Version Two or explore the codebase further, refer to 
 ## Credits
 
 Todo App Version Two was developed by [Your Name], inspired by the desire to create a modern and efficient todo application using the latest web technologies.
+
+
+
+![App Screenshot](https://github.com/ewaru-emmanuel/TodoPlus/blob/master/TodoPlusimages/mobile.png)
+
+![App Screenshot](https://github.com/ewaru-emmanuel/TodoPlus/blob/master/TodoPlusimages/addTodo.png)
+
+![App Screenshot](https://github.com/ewaru-emmanuel/TodoPlus/blob/master/TodoPlusimages/filtered_paginated.png)
+
+
+![App Screenshot](https://github.com/ewaru-emmanuel/TodoPlus/blob/master/TodoPlusimages/about.png)
+
+
